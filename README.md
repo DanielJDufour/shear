@@ -7,7 +7,7 @@
 # features
 :package: &nbsp; works great out of the box  
 :scissors: &nbsp; removes regular quotes like `"` and `'`  
-:snake: &nbsp; removes python quotes like `'''` and `"""`  
+:snake: &nbsp; removes python quotes like `'''`, `"""`, and `b':sheep:'`
 :zap: &nbsp; removes JavaScript quotes like `` ` ``
 
 # install
@@ -18,16 +18,17 @@
 ```python
 from shear import shear
 
-name = "`Daniel`"
+string = "`Sheep`"
 
-sheared_name = shear(name)
-# sheared_name is Daniel
+string = shear(string)
+# string is now Sheep instead of `Sheep`
 ```
 ## command line interface
 ```bash
-name="'Daniel'"
+string="'Sheep'"
 
-echo $(shear $name)
+echo $(shear $string)
+# string is now Sheep instead of 'Sheep'
 ```
 
 # support
