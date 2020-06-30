@@ -4,10 +4,17 @@
 	</div>
 </div>
 
+# features
+:package: &nbsp; works great out of the box  
+:scissors: &nbsp; removes regular quotes like `"` and `'`  
+:snake: &nbsp; removes python quotes like `'''` and `"""`  
+:zap: &nbsp; removes JavaScript quotes like `` ` ``
+
 # install
 `pipenv install shear` or `pip3 install shear`
 
 # usage
+## python
 ```python
 from shear import shear
 
@@ -16,12 +23,12 @@ name = "`Daniel`"
 sheared_name = shear(name)
 # sheared_name is Daniel
 ```
+## command line interface
+```bash
+name="'Daniel'"
 
-# features
-- works great out of the box
-- removes regular quotes like `"` and `'`
-- removes python quotes like `'''` and `"""`
-- remove JavaScript quotes like `` ` ``
+echo $(shear $name)
+```
 
 # support
 Post an issue at https://github.com/DanielJDufour/shear/issues or email the package author at daniel.j.dufour@gmail.com
