@@ -7,8 +7,9 @@
 # features
 :package: &nbsp; works great out of the box  
 :scissors: &nbsp; removes regular quotes like `"` and `'`  
-:snake: &nbsp; removes python quotes like `'''`, `"""`, and `b':sheep:'`
-:zap: &nbsp; removes JavaScript quotes like `` ` ``
+:snake: &nbsp; removes python quotes like `'''`, `"""`, and `b''`  
+:zap: &nbsp; removes JavaScript quotes like `` ` ``  
+:computer: &nbsp; command line interface included
 
 # install
 `pipenv install shear` or `pip3 install shear`
