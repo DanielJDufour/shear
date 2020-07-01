@@ -1,0 +1,5 @@
+python3 -m pip install --upgrade twine
+
+twine check dist/*
+
+twine upload dist/*

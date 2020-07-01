@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 
 BACKTICK = "`"
@@ -44,7 +46,7 @@ if __name__ == "__main__":
     parser.add_argument('-d', '--debug', choices=["", "true", "TRUE", "True"])
     args = parser.parse_args()
 
-    chars = shear(args.chars).split(',') if isinstance(args.chars, str) else None
+    chars = shear(args.chars).split(',') if isinstance(args.chars, str) else DEFAULTS
     debug = shear(args.debug) if isinstance(args.debug, str) else False
 
     if not isinstance(args.value, str):
