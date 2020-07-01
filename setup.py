@@ -12,7 +12,7 @@ setup(
   entry_points={
       'console_scripts': ['shear=shear.__init__:main'],
   },
-  version = "0.0.1",
+  version = "0.0.2",
   description = '🐑 Shear: Trim Excess Quotes from your Strings in Python and on the Command Line',
   long_description = long_description,
   long_description_content_type='text/markdown',
