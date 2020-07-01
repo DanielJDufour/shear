@@ -8,10 +8,11 @@ with open(path.join(this_directory, 'README.md')) as f:
 
 setup(
   name = 'shear',
+  packages = ['shear'],
   entry_points={
       'console_scripts': ['shear=shear.__init__:main'],
   },
-  version = "0.0.0",
+  version = "0.0.1",
   description = '🐑 Shear: Trim Excess Quotes from your Strings in Python and on the Command Line',
   long_description = long_description,
   long_description_content_type='text/markdown',
