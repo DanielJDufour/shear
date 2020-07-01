@@ -38,7 +38,7 @@ def shear(value, chars=DEFAULTS, debug=False):
 
     return value
 
-if __name__ == "__main__":
+def main(args=None):
     # execute only if run as a script
     parser = argparse.ArgumentParser()
     parser.add_argument('value')
@@ -55,3 +55,6 @@ if __name__ == "__main__":
     result = shear(args.value, chars=chars, debug=debug)
 
     print(result, end='')
+
+if __name__ == "__main__":
+    main()
