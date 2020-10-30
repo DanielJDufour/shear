@@ -6,9 +6,9 @@
 
 # features
 :package: &nbsp; works great out of the box  
-:scissors: &nbsp; removes regular quotes like `"` and `'`  
-:snake: &nbsp; removes python quotes like `'''`, `"""`, and `b''`  
-:zap: &nbsp; removes JavaScript quotes like `` ` ``  
+:scissors: &nbsp; removes regular quotation marks like `"` and `'`  
+:snake: &nbsp; removes python quotation marks like `'''`, `"""`, and `b''`  
+:zap: &nbsp; removes JavaScript quotation marks like `` ` ``  
 :computer: &nbsp; command line interface included
 
 # install
